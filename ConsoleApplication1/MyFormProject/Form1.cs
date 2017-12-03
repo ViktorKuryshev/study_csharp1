@@ -19,13 +19,13 @@ namespace MyFormProject
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			if (textBox1.Text == "123456")
+			if (checkBox1.Checked)
 			{
-				MessageBox.Show("Password correct");
+				MessageBox.Show("It's checked");
 			}
 			else
 			{
-				MessageBox.Show("Invalid password");
+				checkBox1.Checked = true;
 			}
 		}
 		
