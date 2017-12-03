@@ -19,12 +19,9 @@ namespace MyFormProject
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("You clicked the button", "Warning");
+			string name = "Victor";
+			MessageBox.Show(name);
 		}
-
-		private void button2_MouseHover(object sender, EventArgs e)
-		{
-			MessageBox.Show("You are hovering you mouse, do not wait too long click it!");
-		}
+		
 	}
 }
