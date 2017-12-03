@@ -19,8 +19,11 @@ namespace MyFormProject
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			string name = "Victor";
-			MessageBox.Show(name);
+			button2.Text = "Victor";
+			button2.Height = 60;
+			button2.Enabled = false;
+
+			textBox1.Text = "will win";
 		}
 		
 	}
