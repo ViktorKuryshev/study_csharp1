@@ -19,11 +19,14 @@ namespace MyFormProject
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			button2.Text = "Victor";
-			button2.Height = 60;
-			button2.Enabled = false;
-
-			textBox1.Text = "will win";
+			if (textBox1.Text == "123456")
+			{
+				MessageBox.Show("Password correct");
+			}
+			else
+			{
+				MessageBox.Show("Invalid password");
+			}
 		}
 		
 	}
