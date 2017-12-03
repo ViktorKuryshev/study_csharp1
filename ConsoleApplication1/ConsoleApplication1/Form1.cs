@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MyFormProject
+namespace ConsoleApplication1
 {
 	public partial class Form1 : Form
 	{
 		public Form1()
 		{
 			InitializeComponent();
-		}
-
-		private void button2_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show("You clicked the button", "Warning");
-		}
-
-		private void button2_MouseHover(object sender, EventArgs e)
-		{
-			MessageBox.Show("You are hovering you mouse, do not wait too long click it!");
 		}
 	}
 }
